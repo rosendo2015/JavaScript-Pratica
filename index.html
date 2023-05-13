@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>Exercicios Java Script</h1>
+    <p>
+      Você pode apresentar o resultado tanto no **console** quanto em um
+      **alerta** no navegador.
+    </p>
+
+    <ol>
+      <li>
+        Crie um script que exiba a mensagem "Hello World!" em um alerta no
+        navegador.
+      </li>
+      <div class="resposta">
+        alert('hello word');
+      </div>  
+      <li>
+        Crie um script que declare duas variáveis e exiba o resultado da soma
+        entre elas.
+      </li>
+      <div class="resposta">
+        let x = 2; 
+        let y = 2;
+        let total = x + y;
+        alert('O total da soma entre ' + x + ' e ' + y + ' é: ' + total)
+      </div>
+      <li>
+        Crie um script que declare uma variável e verifique se o seu valor é um
+        número. Se for, exiba a mensagem "É um número", caso contrário, exiba a
+        mensagem "Não é um número". 💡 Para saber o tipo de dado você pode usar
+        o operador `typeof`
+      </li>
+      <div class="resposta">
+        let z = 0;
+        if((typeof z) == 'number'){
+        alert(z + ' é um número')
+        }else{
+          alert(z + ' não é um número')
+        }
+      </div>
+      <li>
+        Crie um script que declare uma variável e verifique se o seu valor é uma
+        string. Se for, exiba a mensagem "É uma string", caso contrário, exiba a
+        mensagem "Não é uma string".
+      </li>
+      <div class="resposta">
+        let a = 'rocketseat';
+        if((typeof a) == 'string'){
+        alert(a + ' é um string')
+        }else{
+          alert(a + ' não é um string')
+        }
+      </div>
+      <li>
+        Crie um script que declare uma variável e verifique se o seu valor é um
+        booleano. Se for, exiba a mensagem "É um booleano", caso contrário,
+        exiba a mensagem "Não é um booleano".
+      </li>
+      <div class="resposta">
+        let b = true;
+        if((typeof b) == 'boolean'){
+        alert(b + ' é um booleano')
+        }else{
+          alert(b + ' não é um booleano')
+        }
+      </div>
+      <li>
+        Crie um script que declare duas variáveis e exiba o resultado da
+        subtração entre elas.
+      </li>
+      <div class="resposta">
+        let x2 = 20;
+        let y2 =  17;
+        
+        let totalSubtracao = x2 - y2;
+        
+        alert('O total da Subtracao entre ' + x2 + ' e ' + y2 + ' é: ' + totalSubtracao)
+      </div>
+      <li>
+        Crie um script que declare duas variáveis e exiba o resultado da
+        multiplicação entre elas.
+      </li>
+      <div class="resposta">
+        let x3 = 20;
+        let y3 =  17;
+        
+        let totalMultiplicacao = x2 * y2;
+        
+        alert('O total da Multiplicacao entre ' + x3 + ' e ' + y3 + ' é: ' + totalMultiplicacao)
+      </div>
+      <li>
+        Crie um script que declare duas variáveis e exiba o resultado da divisão
+        entre elas.
+      </li>
+      <div class="resposta">
+        let x4 = 20;
+        let y4 = 5;
+        
+        let totalDisivao = x4 / y4;
+        
+        alert("O total da Disivao entre " + x4 + " e " + y4 + " é: " + totalDisivao);
+      </div>
+      <li>
+        Crie um script que declare uma variável e verifique se o seu valor é um
+        número par. Se for, exiba a mensagem "É um número par", caso contrário,
+        exiba a mensagem "Não é um número par".
+      </li>
+      <div class="resposta">
+        let calc = 100;
+        if (calc % 2 == 0) {
+          alert(total + " é um número par");
+        } else {
+          alert(total + " não é um número par");
+        }
+      </div>
+      <li>
+        Crie um script que declare uma variável e verifique se o seu valor é um
+        número ímpar. Se for, exiba a mensagem "É um número ímpar", caso
+        contrário, exiba a mensagem "Não é um número ímpar".
+      </li>
+      <div class="resposta">
+        let calc = 101;
+        if (calc % 2 !== 0) {
+          alert(total + " é um número impar");
+        } else {
+          alert(total + " não é um número impar");
+        }
+      </div>
+    </ol>
+    <script src="./main.js"></script>
+  </body>
+</html>
